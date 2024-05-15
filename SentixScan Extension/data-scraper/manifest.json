@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
     "name": "SentixScan",
+=======
+    "name": "Data Scraper",
+>>>>>>> b7e48f2a89be4fcee284a84d44f3be6d0edd6988
     "description": "Scrape reviews from Shopee",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
     },
+<<<<<<< HEAD
     "permissions": [
         "activeTab",
         "scripting"
@@ -14,3 +19,7 @@
         "service_worker": "background.js"
     }
 }
+=======
+    "permissions": ["activeTab", "scripting"]
+}
+>>>>>>> b7e48f2a89be4fcee284a84d44f3be6d0edd6988
