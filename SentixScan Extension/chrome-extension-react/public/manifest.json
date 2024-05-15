@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "My ReactJS Extension",
+    "description": "My ReactJS Extension Development Practice",
+    "version": "1.0.0",
+    "icons": {
+        "16": "SentixScan-icon.png",
+        "48": "SentixScan-icon.png",
+        "128": "SentixScan-icon.png"
+    },
+    "action": {
+        "default_action": "popup.html"
+    }
+}

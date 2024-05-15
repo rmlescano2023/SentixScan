@@ -1,0 +1,16 @@
+{
+    "name": "SentixScan",
+    "description": "Scrape reviews from Shopee",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
